@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="contenedor-extension off">
+            <div class="contenedor-bombillo">
+                <div class="socate"></div>
+                <div class="bombillo primer-color apagado"></div> 
+            </div>
+            <div class="cable"></div>
+            <div class="contenedor-bombillo">
+                <div class="socate"></div>
+                <div class="bombillo segundo-color apagado"></div>    
+            </div>
+            <div class="cable"></div>
+            <div class="contenedor-bombillo">
+                <div class="socate"></div>
+                <div class="bombillo tercer-color apagado"></div>
+            </div>
+            <div class="cable"></div>
+            <div class="contenedor-bombillo">
+                <div class="socate"></div>
+                <div class="bombillo primer-color apagado"></div>    
+            </div>
+            <div class="cable"></div>
+            <div class="contenedor-bombillo">
+                <div class="socate"></div>
+                <div class="bombillo segundo-color apagado"></div>    
+            </div>
+            <div class="cable"></div>
+            <div class="contenedor-bombillo">
+                <div class="socate"></div>
+                <div class="bombillo tercer-color apagado"></div>
+            </div>
+            <div class="cable"></div>
+            <div class="contenedor-bombillo">
+                <div class="socate"></div>
+                <div class="bombillo primer-color apagado"></div>    
+            </div>             
+        </div>
+    
+        <div class="menu">
+            <div class="on-off">
+                <button id="prender" class="encender">ON</button>
+                <button id="apagar" class="apagar">OFF</button>
+            </div>
+            <div class="intensidad">
+                <label for="intensidad"> Intensidad:</label>
+                <select name="intensidad" class="intensidad" id="intensidad">
+                    <option value="2">Lento</option>
+                    <option value="1">Rapido</option>
+                    <option value="0.5">Muy Rapido</option>
+                </select>
+            </div>
+            <div class="colores">
+                <label for="color">Primer Color:</label>   
+                <input name="color" type="color" id="primer-color" value="#a02c2c">
+                <label for="color">Segundo Color:</label>   
+                <input name="color"type="color" id="segundo-color" value="#3e8b3e">
+                <label for="color">Tercer Color:</label>   
+                <input name="color"type="color" id="tercer-color" value="#caca22">
+            </div>
+            
+        </div>
+
+    </div>
+    
+    
+<script src="app.js"></script>
+        
+    
+</body>
+</html>

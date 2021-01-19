@@ -1,0 +1,123 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+.contenedor{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.contenedor-extension{
+    display: flex;
+    justify-content: space-between; 
+}
+.cable{
+    width: 100px;
+    height: 10px;
+    position: relative;
+    margin: 0;
+    top:260px ;
+    border-radius: 15px;
+    border-bottom: 2px solid rgb(6, 68, 42);
+}
+.socate{
+    width: 50px;
+    height: 40px;
+    background-color: rgb(6, 68, 42);
+    position: relative;
+    margin: 0 auto;
+    top:260px ;
+    border-radius: 5px;
+    z-index: +1;
+}
+.bombillo{
+    width: 50px;
+    height: 100px;
+    margin: 0;
+    position: relative;
+    top:250px;
+    border-radius: 50%;  
+}
+.primer-color{
+    /*background-color: #a02c2c;*/
+    /*box-shadow: 2px 2px 10px 10px #a02c2c, inset  2px 2px 10px 10px#a02c2c; */
+    transition: box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    
+}
+.segundo-color{
+    /*background-color: #3e8b3e;*/
+    /*box-shadow: 2px 2px 10px 10px #3e8b3e, inset  2px 2px 10px 10px  #3e8b3e;*/
+    transition: box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+.tercer-color{
+    /*background-color: #caca22;*/
+    /*box-shadow: 2px 2px 10px 10px  #caca22, inset  2px 2px 10px 10px  #caca22;*/
+    transition: box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+.apagado{
+    box-shadow: none !important;
+    background-color:rgba(85, 72, 72, 0.5) !important;
+    transition: box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+label{
+    font-size: 25px; 
+    color: white;
+    margin: 10px;
+ } 
+ button{
+     font-size: 20px;
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+     border-radius: 15px;
+     width: 150px;
+     padding: 5px;
+     text-align: center;
+     border: none;
+     background-color: grey;
+     color: white;
+     margin: 10px;
+     transition: background-color 0.5s ease-in-out;
+ }
+ select{
+     font-size: 20px;
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+     border-radius: 15px;
+     width: 250px;
+     padding: 5px;
+     text-align: center;
+     border: none;
+     background-color: grey;
+     color: white;
+     margin: 10px;
+     transition: background-color 0.5s ease-in-out;
+ }
+ input{
+     margin: 10px;
+ }
+ button:hover, select:hover{
+     cursor: pointer;
+     background-color: rgb(77, 77, 77);
+     transition: background-color 0.5s ease-in-out;
+ }
+ option{
+     text-align: center;
+ }
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    color: white;   
+    margin-bottom: 250px;
+}
+.colores{
+    display: flex;
+    
+}
+
